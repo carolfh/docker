@@ -10,12 +10,12 @@ weight=-1
 +++
 <![end-metadata]-->
 
-# Image management
+# Image PHROOBA management
 
 The Docker Engine provides a client which you can use to create images on the command line or through a build process. You can run these images in a container or publish them for others to use. Storing the images you create, searching for images you might want, or publishing images others might use are all elements of image management.
 
 This section provides an overview of the major features and products Docker provides for image management.
- 
+
 
 ## Docker Hub
 
@@ -46,7 +46,7 @@ particular, when communicating over an untrusted medium such as the internet, it
 is critical to ensure the integrity and publisher of the all the data a system
 operates on. You use Docker to push and pull images (data) to a registry.
 Content trust gives you the ability to both verify the integrity and the
-publisher of all the data received from a registry over any channel. 
+publisher of all the data received from a registry over any channel.
 
 [Content trust](/security/trust) is currently only available for users of the
 public Docker Hub. It is currently not available for the Docker Trusted Registry
